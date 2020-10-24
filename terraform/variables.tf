@@ -9,3 +9,7 @@ variable "credential_path" {
 variable "profile" {
   default = "private"
 }
+
+variable "code" {
+  default = "eks-demo"
+}
