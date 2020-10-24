@@ -20,7 +20,6 @@ resource "aws_ecr_repository_policy" "this" {
   policy     = data.aws_iam_policy_document.repository_policy.json
 }
 
-
 resource "aws_ecr_lifecycle_policy" "this" {
   repository = aws_ecr_repository.this.name
 
